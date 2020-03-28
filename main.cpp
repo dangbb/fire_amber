@@ -1,0 +1,10 @@
+#include "Game.h"
+
+int main(int argc, char *argv[])
+{
+    Game* Ancient = new Game;
+
+    Ancient->Run();
+
+    return 0;
+}
